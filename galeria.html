@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CG Beauty Studio | Galeria</title>
+    <meta name="description" content="Explore os nossos trabalhos. Um reflexo de elegância do nosso estúdio." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .page-header {
+            padding: 180px 0 80px;
+            text-align: center;
+            background: linear-gradient(to bottom, var(--color-mint) 0%, var(--color-offwhite) 100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="/index.html" class="logo">
+                <span class="logo-cg">CG</span>
+                <span class="logo-text">Beauty Studio</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/sobre.html">Sobre</a>
+                <a href="/servicos.html">Serviços</a>
+                <a href="/galeria.html" style="color: var(--color-gold);">Galeria</a>
+                <a href="/contacto.html" class="btn-outline">Agendar</a>
+            </nav>
+            <button class="mobile-menu-btn"><i class="ri-menu-line"></i></button>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <div class="page-header">
+        <div class="container">
+            <h1 class="section-title">O Nosso Portfólio</h1>
+            <p class="section-desc" style="margin: 20px auto 0;">Explore os nossos trabalhos. Um reflexo autêntico da elegância que entregamos diariamente.</p>
+        </div>
+    </div>
+
+    <!-- Galeria -->
+    <section class="galeria" style="padding-top: 20px;">
+        <div class="container">
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="/images/gallery_1_1775833090555.png" alt="Nail art elegante">
+                </div>
+                <div class="galeria-item">
+                    <img src="/images/gallery_2_1775833106568.png" alt="Manicure em gel clássico com flor">
+                </div>
+                <div class="galeria-item">
+                    <img src="/images/hero_image_1775833053524.png" alt="Unhas nude com detalhes">
+                </div>
+                <!-- Mais Trabalhos Placeholders -->
+                <div class="galeria-item" style="background-color: var(--color-nude); display: flex; align-items: center; justify-content: center; opacity: 0.8;">
+                    <i class="ri-camera-lens-fill" style="font-size: 3rem; color: rgba(0,0,0,0.1);"></i>
+                </div>
+                <div class="galeria-item" style="background-color: var(--color-mint-dark); display: flex; align-items: center; justify-content: center; opacity: 0.8;">
+                    <i class="ri-camera-lens-fill" style="font-size: 3rem; color: rgba(255,255,255,0.4);"></i>
+                </div>
+                <div class="galeria-item call-action">
+                    <div class="ca-content">
+                        <h3>Siga-nos no Instagram</h3>
+                        <p>Veja os nossos trabalhos mais recentes diariamente.</p>
+                        <a href="https://instagram.com" target="_blank" class="btn-outline">@catiagomes.beautystudio <i class="ri-instagram-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="/index.html" class="logo">
+                    <span class="logo-cg">CG</span>
+                    <span class="logo-text">Beauty Studio</span>
+                </a>
+                <p>Elegância e o cuidado com as suas mãos,<br> num espaço desenhado para si.</p>
+                <div class="social-links">
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-facebook-circle-line"></i></a>
+                    <a href="#"><i class="ri-tiktok-line"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="/index.html">Início</a></li>
+                    <li><a href="/sobre.html">Nossa História</a></li>
+                    <li><a href="/servicos.html">Destaques</a></li>
+                    <li><a href="/contacto.html">Entrar em Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Serviços</h4>
+                <ul>
+                    <li><a href="/servicos.html">Verniz Gel</a></li>
+                    <li><a href="/servicos.html">Extensão em Gel</a></li>
+                    <li><a href="/servicos.html">Unhas de Acrílico</a></li>
+                    <li><a href="/servicos.html">Nail Art</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="year"></span> CG Beauty Studio - Cátia Gomes. Todos os direitos reservados.</p>
+                <p class="credits">Design por Antigravity</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CG Beauty Studio | Início</title>
+    <meta name="description" content="Sua beleza, a nossa paixão. Unhas perfeitas e saudáveis com Cátia Gomes na Guarda." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Fundo Organico Glassmorphism -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="/index.html" class="logo">
+                <span class="logo-cg">CG</span>
+                <span class="logo-text">Beauty Studio</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/sobre.html">Sobre</a>
+                <a href="/servicos.html">Serviços</a>
+                <a href="/galeria.html">Galeria</a>
+                <a href="/contacto.html" class="btn-outline">Agendar</a>
+            </nav>
+            <button class="mobile-menu-btn"><i class="ri-menu-line"></i></button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero reveal" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Sua beleza, a nossa paixão.<br>Unhas perfeitas e saudáveis.</h1>
+                <p>Técnica certificada e nail designer dedicada a realçar a sua elegância natural, com o máximo rigor e segurança.</p>
+                <div class="hero-actions">
+                    <a href="/servicos.html" class="btn-primary">Ver Serviços</a>
+                    <a href="/contacto.html" class="btn-text">Agendar Marcação <i class="ri-arrow-right-line"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="/images/hero_image_1775833053524.png" alt="Manicure detalhada, unhas nude com anel de pérola" class="hero-image">
+                <div class="glass-badge">
+                    <i class="ri-star-fill"></i>
+                    <span>Especialista Certificada</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="servicos reveal" style="padding-top: 80px;">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Os Nossos Destaques</h2>
+                <p class="section-desc">Cuidamos das suas unhas com técnicas avançadas e produtos premium.</p>
+            </div>
+            <div class="servicos-grid reveal" style="grid-template-columns: repeat(3, 1fr);">
+                <div class="servico-card glass-card">
+                    <div class="servico-icon"><i class="ri-drop-line"></i></div>
+                    <h3>Verniz Gel</h3>
+                    <p>Uma aplicação rápida e de longa duração. Perfeito para quem procura brilho constante.</p>
+                </div>
+                <div class="servico-card glass-card">
+                    <div class="servico-icon"><i class="ri-sparkling-fill"></i></div>
+                    <h3>Manicure em Gel</h3>
+                    <p>Unhas duráveis e impecáveis com acabamento natural.</p>
+                </div>
+                <div class="servico-card glass-card">
+                    <div class="servico-icon"><i class="ri-palette-line"></i></div>
+                    <h3>Nail Art</h3>
+                    <p>Design personalizado de acordo com o seu estilo exclusivo.</p>
+                </div>
+            </div>
+            <div class="center" style="margin-top: 50px;">
+                <a href="/servicos.html" class="btn-outline">Ver Restantes Serviços</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ANTES vs DEPOIS SLIDER -->
+    <section class="reveal" style="padding: 100px 0; background: linear-gradient(to bottom, var(--color-offwhite), var(--color-mint));">
+        <div class="container center">
+            <div class="section-header center">
+                <h2 class="section-title">A Transformação</h2>
+                <p class="section-desc">Deslize a barra para comparar o poder de um trabalho profissional.</p>
+            </div>
+            
+            <div class="comparison-slider">
+                <img src="/images/nails_after.png" alt="Unhas finalizadas CG Beauty Studio" class="image-after">
+                <div class="image-before">
+                    <img src="/images/nails_before.png" alt="Unhas antes do tratamento" style="width: 800px; height: 500px; max-width: none;">
+                </div>
+                <div class="slider-line"></div>
+                <div class="slider-button">
+                    <i class="ri-arrow-left-right-line"></i>
+                </div>
+                
+                <div class="comparison-badges">
+                    <span class="badge-text" style="align-self: flex-start;">Antes</span>
+                    <span class="badge-text" style="align-self: flex-end;">Trabalho Cátia Gomes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos reveal">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">O que as Clientes Dizem</h2>
+                <p class="section-desc">A sua satisfação é a cereja no topo do bolo.</p>
+            </div>
+            <div class="depoimentos-grid reveal">
+                <div class="depoimento-card glass-card">
+                    <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                    <p>"Obrigada, Cátia! Nunca tive unhas tão bonitas e saudáveis. O atendimento é incrível e o espaço é super acolhedor."</p>
+                    <h4>— Marta Silva</h4>
+                </div>
+                <div class="depoimento-card glass-card">
+                    <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                    <p>"Excelente profissional. Adoro a paciência e a perfeição com que trabalha. Os produtos são ótimos, notei muita diferença!"</p>
+                    <h4>— Filipa Costa</h4>
+                </div>
+                <div class="depoimento-card glass-card">
+                    <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                    <p>"A melhor Nail Designer da Guarda. Ambiente relaxante e o resultado final é sempre impecável e super elegante."</p>
+                    <h4>— Joana Mendes</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="/index.html" class="logo">
+                    <span class="logo-cg">CG</span>
+                    <span class="logo-text">Beauty Studio</span>
+                </a>
+                <p>Elegância e o cuidado com as suas mãos,<br> num espaço desenhado para si.</p>
+                <div class="social-links">
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                    <a href="#"><i class="ri-facebook-circle-line"></i></a>
+                    <a href="#"><i class="ri-tiktok-line"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="/index.html">Início</a></li>
+                    <li><a href="/sobre.html">Nossa História</a></li>
+                    <li><a href="/servicos.html">Destaques</a></li>
+                    <li><a href="/contacto.html">Entrar em Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Serviços</h4>
+                <ul>
+                    <li><a href="/servicos.html">Verniz Gel</a></li>
+                    <li><a href="/servicos.html">Extensão em Gel</a></li>
+                    <li><a href="/servicos.html">Unhas de Acrílico</a></li>
+                    <li><a href="/servicos.html">Nail Art</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="year"></span> CG Beauty Studio - Cátia Gomes. Todos os direitos reservados.</p>
+                <p class="credits">Design por Antigravity</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FAB BUTTON -->
+    <div class="fab-container">
+        <a href="/contacto.html" class="fab-btn">
+            <i class="ri-whatsapp-line"></i>
+        </a>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
